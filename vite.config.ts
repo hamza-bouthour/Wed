@@ -34,4 +34,9 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  preview: {
+    port: 4173,
+    host: true,
+    allowedHosts: ["wed-production-6dd9.up.railway.app"],
+  },
 });
